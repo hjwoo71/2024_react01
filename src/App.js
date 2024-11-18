@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Courseitem from './components/course/Courseitem';
 import CourseListCard from './components/course/CourseListCard';
+import Library from './components/step01/Library';
 
 /* function Header() {
   return(
@@ -38,13 +39,19 @@ function Counter() {
 // class 대신 className 이라고 사용한다.
 function App() {
   return (
-  <main>
-   {/* <Header />
+    <div>
+  {/* <main>
+    <Header />
    <Main/>
    <Footer /> 
-   <Footer /> */}
-      <CourseListCard />
-   </main>
+   <Footer /> 
+    <CourseListCard />
+   
+
+   
+   </main> */}
+    <Library />
+</div>
   );
 }
 
