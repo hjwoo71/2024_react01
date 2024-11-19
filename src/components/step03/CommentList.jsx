@@ -20,7 +20,6 @@ const comments = [
         comment : "응~애"
     }
 ];
-comments.
 
 function CommentList(props) {
     return (
